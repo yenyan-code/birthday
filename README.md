@@ -1,4 +1,4 @@
-# 🏃 Dagan Bai! (Run Brother) — Birthday Edition 🎂
+# 🏃 Dagan Bai!🎂
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![HTML5 Canvas](https://img.shields.io/badge/HTML5-Canvas-E34F26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
