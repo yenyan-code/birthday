@@ -1,0 +1,27 @@
+{
+  "name": "dagan-bai-game",
+  "version": "1.0.0",
+  "description": "Dagan Bai! (Run Brother) — A fast-paced, responsive retro 2D endless runner game with an unforgettable birthday surprise twist.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "npx serve src",
+    "dev": "npx serve src",
+    "test": "node --check src/js/engine.js src/js/surprise.js src/js/main.js"
+  },
+  "keywords": [
+    "html5-game",
+    "canvas-game",
+    "endless-runner",
+    "pixel-art",
+    "birthday-surprise",
+    "bisaya",
+    "dagan-bai",
+    "responsive-game"
+  ],
+  "author": "Arien",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yenyan-code/birthday"
+  }
+}

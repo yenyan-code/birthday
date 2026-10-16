@@ -1,0 +1,32 @@
+<svg viewBox="0 0 280 140" width="100%" height="100%" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <!-- Base Silhouette / Distant Shadow Ridge -->
+  <polygon points="10,140 34,116 34,98 54,98 54,80 72,80 72,64 88,64 88,50 102,50 102,38 116,38 116,28 128,28 128,18 152,18 166,18 166,32 184,32 184,46 204,46 204,64 228,64 228,84 252,84 252,108 280,108 280,140" fill="#323c57" />
+
+  <!-- Right Shadow Facet -->
+  <polygon points="144,18 152,18 166,18 166,32 184,32 184,46 204,46 204,64 228,64 228,84 252,84 252,108 280,108 280,140 168,140 162,105 156,72 148,42" fill="#445174" />
+
+  <!-- Deep Shadow Crags & Crevices -->
+  <polygon points="148,42 156,72 162,105 154,105 148,72 142,42" fill="#2b344b" />
+  <polygon points="184,46 194,46 194,80 184,80" fill="#36415d" />
+  <polygon points="228,84 238,84 238,120 228,120" fill="#36415d" />
+  <polygon points="204,64 212,64 212,94 204,94" fill="#2e374e" />
+
+  <!-- Left Sunlit Facet -->
+  <polygon points="10,140 34,116 34,98 54,98 54,80 72,80 72,64 88,64 88,50 102,50 102,38 116,38 116,28 128,28 128,18 144,18 148,42 156,72 162,105 168,140 10,140" fill="#6c7ea6" />
+
+  <!-- Sunlit Terraces & Rocky Highlights -->
+  <polygon points="116,28 128,28 128,18 144,18 146,38 132,38 132,28" fill="#889bc4" />
+  <polygon points="102,50 116,50 116,38 130,38 134,62 118,62 102,62" fill="#7f92bc" />
+  <polygon points="88,64 102,64 102,50 118,50 120,78 100,78 88,78" fill="#7f92bc" />
+  <polygon points="72,80 88,80 88,64 104,64 106,94 86,94 72,94" fill="#788ab4" />
+
+  <!-- Secondary Front Shoulder Peak -->
+  <polygon points="10,140 30,110 48,92 68,76 82,76 96,90 112,110 128,140" fill="#384360" />
+  <polygon points="10,140 30,110 48,92 68,76 76,76 76,100 84,140" fill="#788ab2" />
+  <polygon points="48,92 68,76 76,76 72,94 56,94" fill="#99add6" />
+  <polygon points="76,76 82,76 96,90 88,90 76,82" fill="#4b577a" />
+
+  <!-- Summit Peak Snow / Light Highlight -->
+  <polygon points="128,18 144,18 146,24 130,24" fill="#bfd1f2" />
+  <polygon points="132,24 140,24 140,28 132,28" fill="#e2edff" />
+</svg>

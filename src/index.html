@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Dagan Bai! (Run Brother) — Birthday Edition</title>
+  <meta name="description" content="A fast-paced retro 2D endless runner web game celebrating Filipino street culture with an unexpected birthday surprise twist!" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>" />
+</head>
+<body>
+  <div id="game-wrapper">
+    <!-- 1. Retro Runner Game Canvas (960 x 540 Virtual Resolution) -->
+    <canvas id="game-canvas" width="960" height="540" aria-label="Dagan Bai Game Canvas"></canvas>
+
+    <!-- Real-Time HUD Score Counter Overlay -->
+    <header id="hud-overlay" aria-label="Game HUD">
+      <div class="hud-group">
+        <div class="hud-badge hud-gold">
+          <span>SCORE:</span>
+          <span id="hud-score">0</span>
+        </div>
+        <div class="hud-badge">
+          <span>DIST:</span>
+          <span id="hud-distance">0m</span>
+        </div>
+      </div>
+
+      <div class="hud-group" style="align-items: flex-end;">
+        <div class="hud-badge hud-green">
+          <span>COINS:</span>
+          <span id="hud-coins">₱0</span>
+        </div>
+        <div class="hud-badge">
+          <span>BEST:</span>
+          <span id="hud-highscore">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Touch Hint -->
+    <div id="mobile-touch-hint">📱 Tap screen to Jump / Double Jump</div>
+
+    <!-- 2. Start Menu Modal -->
+    <section id="modal-start" class="game-modal" aria-labelledby="modal-title">
+      <div class="title-container">
+        <h1 id="modal-title" class="title-logo">DAGAN BAI!</h1>
+        <p class="title-sub" id="start-greeting">🏃 (RUN BROTHER!) 🎂</p>
+      </div>
+
+      <div class="instructions-card">
+        <p>Sprint through the street to reach the party!</p>
+        <p>• <span>[SPACE]</span> / <span>[TAP]</span> : Jump</p>
+        <p>• <span>[DOUBLE TAP]</span> : Double Jump</p>
+        <p>• Dodge the <span>Askal Dog 🐕</span>, <span>Tricycle 🛺</span> &amp; <span>Pothole 🕳️</span>!</p>
+        <p>• Grab floating <span>Gold Coins 🪙</span>!</p>
+      </div>
+
+      <button id="btn-start" class="pixel-btn" aria-label="Start Game">
+        ▶ DAGAN NA! (START)
+      </button>
+    </section>
+
+    <!-- 3. The 2-Second Suspense Game Over Modal -->
+    <section id="modal-gameover" class="game-modal hidden" aria-live="assertive">
+      <h2 class="gameover-title">GAME OVER</h2>
+      <p class="suspense-subtext">Patay kang bata ka... 👀</p>
+    </section>
+
+    <!-- 4. Grand Birthday Celebration Banner Modal -->
+    <section id="modal-surprise" class="game-modal hidden" aria-live="polite">
+      <div class="surprise-banner">
+        <h2 id="surprise-headline" class="surprise-headline">
+          🎉 SURPRISE!<br/>Happy Birthday! 🎂
+        </h2>
+        <p class="surprise-subline">You survived another year! May your day be blessed with joy &amp; lechon! ✨</p>
+      </div>
+
+      <div class="surprise-stats">
+        <div>DISTANCE: <span id="surprise-stat-distance" style="color:var(--gold);">0m</span></div>
+        <div>COINS: <span id="surprise-stat-coins" style="color:var(--green);">₱0</span></div>
+        <div>FINAL: <span id="surprise-stat-score" style="color:#ff8800;">0</span></div>
+      </div>
+
+      <button id="btn-replay" class="pixel-btn" aria-label="Play Again">
+        🔄 DAGAN NA SAD! (PLAY AGAIN)
+      </button>
+    </section>
+
+    <!-- 5. Fullscreen Physics Confetti Particle Canvas -->
+    <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+  </div>
+
+  <!-- Entry Script -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

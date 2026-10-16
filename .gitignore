@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+.npm/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Logs
+*.log
+.env
+.env.local
+
+# Vercel & Build outputs
+.vercel
+.dist/
+dist/
